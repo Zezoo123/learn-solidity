@@ -1,1 +1,2 @@
 Get functions have the view keyword which indicates that the state doesn't change
+Functions that return a value use the keyword return followed by the data type: return (uint)

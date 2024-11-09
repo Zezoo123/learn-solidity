@@ -1,0 +1,5 @@
+there is a variable (  this  ) like in oop to access the contract itself
+this can be used to get the current balance for example -- address(this).balance
+
+there is also a msg variable:
+msg.sender gives the address of the contract which sent the message
