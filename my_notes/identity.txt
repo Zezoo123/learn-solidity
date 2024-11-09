@@ -3,7 +3,9 @@ this can be used to get the current balance for example -- address(this).balance
 
 there is also a msg variable:
 msg.sender gives the address of the contract which sent the message
-there is more to do with this msg variable -- look into!
+msg.gas is a payemnt for the cost of processing the message
+msg.value is a payment for the service represented by the message
 
 require(msg.sender == owner) -- is the same as doing -- if (msg.sender != owner) {revert();}
+require(msg.value > amount) -- to use this you must indicate that the function is payable
 
