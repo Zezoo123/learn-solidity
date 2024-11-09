@@ -1,0 +1,1 @@
+Get functions have the view keyword which indicates that the state doesn't change
