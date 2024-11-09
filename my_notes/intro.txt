@@ -1,0 +1,8 @@
+smart contracts exist on a network 
+have a network address
+have a state and some associated code
+send and recieve messages
+
+Solidity is used to write smart contracts
+
+once smart contracts are deployed on a network, they run autonomously on the network (on other people computers)
